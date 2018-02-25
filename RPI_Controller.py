@@ -12,7 +12,7 @@ GPIO.setmode(GPIO.BOARD)
 
 
 GPIO.setup(11,GPIO.OUT)  # Currant output 3.3V
-GPIO.output(11,0) # Make sure the Pin is off 
+GPIO.output(11,0) # Make sure the Pin is off
 
 
 print("Welcome!, You can press CTRL+C for exit the program!")
